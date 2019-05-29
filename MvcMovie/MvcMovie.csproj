@@ -140,6 +140,14 @@
     <Compile Include="Migrations\201905280756569_Required field added to Movie title and genere.Designer.cs">
       <DependentUpon>201905280756569_Required field added to Movie title and genere.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905290934098_Completecode.cs" />
+    <Compile Include="Migrations\201905290934098_Completecode.Designer.cs">
+      <DependentUpon>201905290934098_Completecode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905290937404_Seedandcompletecode.cs" />
+    <Compile Include="Migrations\201905290937404_Seedandcompletecode.Designer.cs">
+      <DependentUpon>201905290937404_Seedandcompletecode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -209,6 +217,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905280756569_Required field added to Movie title and genere.resx">
       <DependentUpon>201905280756569_Required field added to Movie title and genere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905290934098_Completecode.resx">
+      <DependentUpon>201905290934098_Completecode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905290937404_Seedandcompletecode.resx">
+      <DependentUpon>201905290937404_Seedandcompletecode.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

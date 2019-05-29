@@ -15,8 +15,9 @@ namespace MvcMovie
 
             routes.MapRoute(
                 name: "Movie",
-                url: "Movies/Index",
-                defaults: new { controller = "Movies", action = "Index", id = UrlParameter.Optional }
+               url: "Movies/index/{searchString}",
+            //   url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Movies", action = "Index", searchString = UrlParameter.Optional }
             );
             routes.MapRoute(
                 name: "Default",

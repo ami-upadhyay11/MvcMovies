@@ -5,10 +5,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Movie List</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
+    @using (Html.BeginForm("Index","Movies",FormMethod.Get))
+    {
+        <p> Genre: @Html.DropDownList("movieGenre","Select Genre")  
+            Title : @Html.TextBox("SearchString")<br/>
+    <br/>
+           <input type="submit" value="Filter" />
+
+        </p>
+    }
 </p>
 <table class="table">
     <tr>
