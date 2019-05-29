@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
+    // Developer branch
     public class Movie
     {
         public int ID { get; set; }
